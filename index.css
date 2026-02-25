@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "TTLakes-Medium";
+    src: url(./Fonts/TTLakes-Medium.woff);
+}
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+    padding: 8px 16px;
+    border: 16px solid none;
+    font-family: "TTLakes-Medium";
+}
+
+header {
+    background-color: #FFFFFF;
+}
+.logo {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+h1 {
+    color: #1B1C21;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 28px;
+    border-left: 4px solid #41F6D7;
+    padding-left: 0.5em;
+}
+.menu-scroll {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+button {
+    display: inline-flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.container {
+    padding: 0.5em;
+}
+
+.borderblue {
+    border: 2px solid #B8FFEC;
+}
+span {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 0.5rem;
+}
+main {
+    background-color: #F8F8F8;
+}
+
+
+
