@@ -3,42 +3,48 @@
     padding: 0;
     margin: 0;
 }
+
+
 @font-face {
-    font-family: "TTLakes-Medium";
-    src: url(./Fonts/TTLakes-Medium.woff);
+    font-family: "TTLakesCondensed-Bold";
+    src: url(./Fonts/TTLakesCondensed-Bold.woff)
 }
+
 body {
     min-width: 320px;
     overflow-x: hidden;
-    padding: 8px 16px;
-    border: 16px solid none;
-    font-family: "TTLakes-Medium";
+    font-family: 'TT Lakes', sans-serif;
 }
 
 header {
     background-color: #FFFFFF;
 }
-.logo {
+
+.headerlogo {
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 5em;
 
 }
+
 h1 {
     color: #1B1C21;
     margin-bottom: 0.5em;
     font-weight: bold;
-    margin: 20px;
     font-size: 28px;
     border-left: 4px solid #41F6D7;
-    padding-left: 0.5em;
+    font-family: "TTLakesCondensed-Bold";
 }
-.menu-scroll {
+
+.header-navigator {
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
 
 }
+
 button {
     display: inline-flex;
     border: none;
@@ -46,21 +52,33 @@ button {
     align-items: center;
     height: 40px;
 }
-.container {
-    padding: 0.5em;
+
+.header-button {
+    padding: 0.5rem;
+    font-weight: normal;
 }
 
-.borderblue {
+.menu-scroll__firstbutton {
     border: 2px solid #B8FFEC;
 }
+
 span {
     font-weight: normal;
-    font-size: 16px;
-    padding: 0.5rem;
+    font-size: 14px;
+    padding: 1rem;
 }
+
 main {
     background-color: #F8F8F8;
 }
 
-
-
+.text {
+    font-family: 'TT Lakes', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+.conteinertext {
+    padding: 0.5rem;
+}
