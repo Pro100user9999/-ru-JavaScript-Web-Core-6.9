@@ -20,7 +20,7 @@ header {
     background-color: #FFFFFF;
 }
 
-.headerlogo {
+.upperMenu_mob {
     padding: 1rem;
     display: flex;
     justify-content: space-around;
@@ -63,9 +63,10 @@ button {
 }
 
 span {
-    font-weight: normal;
-    font-size: 14px;
-    padding: 1rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
 }
 
 main {
@@ -78,7 +79,11 @@ main {
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
+    padding: 1rem;
 }
-.conteinertext {
-    padding: 0.5rem;
+
+.containertext__button {
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 16px;
 }
