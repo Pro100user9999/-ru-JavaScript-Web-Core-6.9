@@ -10,14 +10,15 @@
     src: url(./Fonts/TTLakesCondensed-Bold.woff)
 }
 
+@font-face {
+    font-family: "TTLakes-Regular";
+    src: url(./Fonts/TTLakesCompressed-Regular.woff);
+}
 body {
     min-width: 320px;
     overflow-x: hidden;
-    font-family: 'TT Lakes', sans-serif;
-}
-
-header {
-    background-color: #FFFFFF;
+    font-family: "TTLakes-Regular";
+    background-color: #F8F8F8;
 }
 
 .upperMenu_mob {
@@ -26,23 +27,27 @@ header {
     justify-content: space-around;
     align-items: center;
     row-gap: 5em;
+    background-color: #FFFFFF;
+    max-width: 504px;
+    max-height: 40px;
 
 }
 
-h1 {
-    color: #1B1C21;
-    margin-bottom: 0.5em;
-    font-weight: bold;
+.header-tittle {
+    font-weight: 700;
     font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
     border-left: 4px solid #41F6D7;
     font-family: "TTLakesCondensed-Bold";
+    height: 40px;
+    padding-left: 1rem;
 }
 
 .header-navigator {
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     white-space: nowrap;
-
 }
 
 button {
@@ -51,22 +56,33 @@ button {
     justify-content: center;
     align-items: center;
     height: 40px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
 }
 
 .header-button {
-    padding: 0.5rem;
+    padding: 1rem;
     font-weight: normal;
 }
 
-.menu-scroll__firstbutton {
+.header__firstbutton {
     border: 2px solid #B8FFEC;
+    background-color: #FFFFFF;
+    width: 248px;
+    height: 40px;
+    border-radius: 6px;
 }
 
 span {
+    color: #7E7E82;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 9px 8px 16px;
 }
 
 main {
@@ -74,16 +90,24 @@ main {
 }
 
 .text {
-    font-family: 'TT Lakes', sans-serif;
+    font-family: "TTLakes-Regular";
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
     letter-spacing: 0.2px;
     padding: 1rem;
 }
 
+.containertext {
+    background-color: #F8F8F8;
+    max-width: 320px;
+    max-height: 322px;
+}
 .containertext__button {
     padding: 1rem;
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    font-family: "TTLakes-Regular";
 }
+
