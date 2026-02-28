@@ -121,9 +121,8 @@ button {
 
 .about__content-text {
     background-color: #F8F8F8;
-    max-width: 320px;
-    max-height: 322px;
 }
+
 .about__button {
     padding: 1rem 0.5rem;
     font-weight: 500;
