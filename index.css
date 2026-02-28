@@ -7,12 +7,17 @@
 
 @font-face {
     font-family: "TTLakesCondensed-Bold";
-    src: url(./Fonts/TTLakesCondensed-Bold.woff)
+    src: url(./Fonts/TTLakesCondensed-Bold.ttf)
 }
 
 @font-face {
     font-family: "TTLakes-Regular";
-    src: url(./Fonts/TTLakesCompressed-Regular.woff);
+    src: url(./Fonts/TTLakes-Regular.ttf);
+}
+
+@font-face {
+    font-family: "TTLakes-Medium";
+    src: url(./Fonts/TTLakes-Medium.ttf);
 }
 body {
     min-width: 320px;
@@ -21,16 +26,23 @@ body {
     background-color: #F8F8F8;
 }
 
-.upperMenu_mob {
+.header {
+    padding: 5% 0 5% 0;
+}
+
+.header__menu {
     padding: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     row-gap: 5em;
-    background-color: #FFFFFF;
+    background-color: #F8F8F8;
     max-width: 504px;
     max-height: 40px;
+}
 
+.header__actions {
+    display: none;
 }
 
 .header-tittle {
@@ -42,12 +54,21 @@ body {
     font-family: "TTLakesCondensed-Bold";
     height: 40px;
     padding-left: 1rem;
+    color: #1B1C21;
 }
 
-.header-navigator {
+.services__list {
     display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     overflow-x: scroll;
     white-space: nowrap;
+    gap: 9px;
+}
+
+.services__item {
+    flex-shrink: 0;
 }
 
 button {
@@ -65,7 +86,7 @@ button {
     font-weight: normal;
 }
 
-.header__firstbutton {
+.services__button--active {
     border: 2px solid #B8FFEC;
     background-color: #FFFFFF;
     width: 248px;
@@ -73,7 +94,7 @@ button {
     border-radius: 6px;
 }
 
-span {
+.services__button {
     color: #7E7E82;
     font-weight: 500;
     font-size: 16px;
@@ -85,25 +106,26 @@ span {
     padding: 8px 9px 8px 16px;
 }
 
-main {
+.main-content {
     background-color: #F8F8F8;
 }
 
-.text {
+.about__text {
     font-family: "TTLakes-Regular";
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.2px;
-    padding: 1rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    line-height: 20px;
 }
 
-.containertext {
+.about__content-text {
     background-color: #F8F8F8;
     max-width: 320px;
     max-height: 322px;
 }
-.containertext__button {
-    padding: 1rem;
+.about__button {
+    padding: 1rem 0.5rem;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.2px;
