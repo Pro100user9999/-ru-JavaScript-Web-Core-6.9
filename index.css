@@ -88,17 +88,13 @@ button {
     background-color: #F8F8F8;
 }
 
-.header-button {
-    padding: 1rem;
-    font-weight: normal;
-}
-
 .services__button--active {
     border: 2px solid #B8FFEC;
     background-color: #FFFFFF;
     width: 248px;
     height: 40px;
     border-radius: 6px;
+    padding: 8px 9px 8px 16px;
 }
 
 .services__button {
@@ -110,7 +106,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 9px 8px 16px;
+    border-radius: 6px;
 }
 
 .main-content {
@@ -139,3 +135,10 @@ button {
     font-family: "TTLakes-Regular";
 }
 
+@media(min-width: 768) {
+    .header__actions {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+}
