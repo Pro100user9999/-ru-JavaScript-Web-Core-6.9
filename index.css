@@ -112,9 +112,7 @@ button {
 .main-content {
     background-color: #F8F8F8;
 }
-.about {
-    margin-top: 1.5rem;
-}
+
 .about__text {
     font-family: "TTLakes-Regular";
     font-weight: 400;
@@ -191,6 +189,7 @@ button {
         display: flex;
         width: 720px;
         height: 208px;
+        margin-top: 1.5rem;
     }
     .about__content-text {
         width: 1;
