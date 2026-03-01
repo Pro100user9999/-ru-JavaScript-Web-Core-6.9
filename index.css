@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-
 @font-face {
     font-family: "TTLakesCondensed-Bold";
     src: url(./Fonts/TTLakesCondensed-Bold.ttf)
@@ -20,7 +19,7 @@
     src: url(./Fonts/TTLakes-Medium.ttf);
 }
 body {
-    min-width: 100%;
+    width: 100%;
     overflow-x: hidden;
     font-family: "TTLakes-Regular";
     background-color: #F8F8F8;
@@ -139,12 +138,15 @@ button {
     padding: 1rem 0.5rem;
 }
 
-@media(min-width: 319) and (max-width: 768) {
+@media(min-width: 321px) and (max-width: 785px) {
     .header__actions {
         display: flex;
     }
-    .about__text {
-        font-size: 40px;
-    }
 
+    .header {
+        padding: 0 1rem 0 0;
+        width: 768px;
+        height: 88px;
+    }
+  
 }
