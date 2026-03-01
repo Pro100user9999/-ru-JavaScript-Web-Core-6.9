@@ -60,6 +60,7 @@ body {
     font-family: "TTLakesCondensed-Bold";
     height: 40px;
     padding-left: 1rem;
+    margin: 1.5rem 0 1.5rem 0;
     color: #1B1C21;
 }
 
@@ -67,7 +68,7 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 1.5rem 0 1.5rem 0;
     overflow-x: auto;
     white-space: nowrap;
     gap: 9px;
@@ -111,11 +112,13 @@ button {
 .main-content {
     background-color: #F8F8F8;
 }
-
+.about {
+    margin-top: 1.5rem;
+}
 .about__text {
     font-family: "TTLakes-Regular";
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.2px;
     padding: 0.5rem 1rem 0.5rem 1rem;
     line-height: 20px;
@@ -144,9 +147,59 @@ button {
     }
 
     .header {
-        padding: 0 1rem 0 0;
+        margin: 0 1rem 0 0;
+        padding: 1.5rem;
         width: 768px;
         height: 88px;
     }
-  
+    .header__icon--call {
+        position: absolute;
+        left: 454px;
+        top: 24px;
+    }
+    .header__icon--chat {
+        position: absolute;
+        left: 510px;
+        top: 24px;
+    }
+    .header__icon--profile {
+        position: absolute;
+        left: 566px;
+        top: 24px;
+    }
+    .header__icon--repair {
+        position: absolute;
+        left: 648px;
+        top: 24px;
+    }
+    .header__icon--check {
+        position: absolute;
+        left: 704px;
+        top: 24px;
+    }
+    .header__icon--logo {
+        position: absolute;
+        left: 106.73px;
+        top: 18.59px;
+    }
+    .header__icon--burge {
+        position: absolute;
+        left: 24px;
+        top: 24px;
+    }
+    .about__content {
+        display: flex;
+        width: 720px;
+        height: 208px;
+    }
+    .about__content-text {
+        width: 1;
+    }
+    .about__content_image {
+        width: 1;
+    } 
+    .about__content_image {
+        width: 360px;
+        height: 208px;
+    }  
 }
