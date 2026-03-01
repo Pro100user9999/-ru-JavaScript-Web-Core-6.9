@@ -20,7 +20,7 @@
     src: url(./Fonts/TTLakes-Medium.ttf);
 }
 body {
-    min-width: 320px;
+    min-width: 100%;
     overflow-x: hidden;
     font-family: "TTLakes-Regular";
     background-color: #F8F8F8;
@@ -69,7 +69,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    overflow-x: scroll;
+    overflow-x: auto;
     white-space: nowrap;
     gap: 9px;
 }
@@ -118,7 +118,7 @@ button {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.2px;
-    padding: 1rem 0.5rem 1rem 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     line-height: 20px;
 }
 
@@ -127,7 +127,7 @@ button {
 }
 
 .about__button {
-    padding: 1rem 0.5rem;
+    padding: 1rem 1rem;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.2px;
@@ -135,10 +135,16 @@ button {
     font-family: "TTLakes-Regular";
 }
 
-@media(min-width: 768) {
+.about__button__text {
+    padding: 1rem 0.5rem;
+}
+
+@media(min-width: 319) and (max-width: 768) {
     .header__actions {
         display: flex;
-        justify-content: end;
-        align-items: center;
     }
+    .about__text {
+        font-size: 40px;
+    }
+
 }
