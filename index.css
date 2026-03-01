@@ -150,7 +150,7 @@ button {
         width: 768px;
         height: 88px;
     }
-    .header__icon--call {
+    /* .header__icon--call {
         position: absolute;
         left: 454px;
         top: 24px;
@@ -184,7 +184,7 @@ button {
         position: absolute;
         left: 24px;
         top: 24px;
-    }
+    } */
     .about__content {
         display: flex;
         width: 720px;
