@@ -26,15 +26,32 @@ body {
 }
 
 .header {
-    padding: 5.5% 0 5.5% 0;
+    display: flex;
+    width: 100%;
+    max-height: 88px;
+    box-sizing: border-box;
 }
 
+.header__icon--burger {
+    padding-top: 11px;
+}
 .header__menu {
     display: flex;
-    padding: 0 1rem;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 7.5% 5% 7.5% 5%;
     box-sizing: border-box;
+}
+.header__menu__left {
+    display: flex;
+    gap: 0.5rem;
+    
+}
+.header__menu__right {
+    display: flex;
+    margin-right: auto;
+    gap: 0.5rem;
 }
 
 .services__nav {
@@ -150,6 +167,20 @@ button {
         width: 768px;
         height: 88px;
     }
+    .header__menu {
+        display: flex;
+        gap: 20rem;
+    }
+    .header__menu__left {
+        margin-left: auto;
+    }
+    .header__menu__right {
+        margin-right: auto;
+    }
+    .header__actions {
+        display: flex;
+        gap: 1rem;
+    }
     /* .header__icon--call {
         position: absolute;
         left: 454px;
@@ -180,7 +211,7 @@ button {
         left: 106.73px;
         top: 18.59px;
     }
-    .header__icon--burge {
+    .header__icon--burger {
         position: absolute;
         left: 24px;
         top: 24px;
