@@ -163,7 +163,14 @@ button {
         max-width: 768px;
         max-height: 88px;
     }
-    /* .header {
+    .header__menu__left {
+        display: flex;
+        gap: 1rem;
+    }
+    .header__icon--burger {
+    padding: 9px 6px 0 0;
+    }
+    .header {
         margin: 0 1rem 0 0;
         padding: 1.5rem;
         width: 768px;
@@ -182,8 +189,8 @@ button {
     .header__actions {
         display: flex;
         gap: 1rem;
-    } */
-    /* .header__icon--call {
+    } 
+    .header__icon--call {
         position: absolute;
         left: 454px;
         top: 24px;
@@ -217,8 +224,8 @@ button {
         position: absolute;
         left: 24px;
         top: 24px;
-    } */
-    /* .about__content {
+    } 
+    .about__content {
         display: flex;
         width: 720px;
         height: 208px;
@@ -233,5 +240,5 @@ button {
     .about__content_image {
         width: 360px;
         height: 208px;
-    }   */
+    }  
 }
