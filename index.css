@@ -33,7 +33,7 @@ body {
 }
 
 .header__icon--burger {
-    padding: 0 6px 5px 0;
+    padding-top: 0.9rem;
 }
 
 .header__menu {
@@ -45,6 +45,16 @@ body {
     max-width: 320px;
     max-height: 88px;
     padding: 1.5rem 1rem;
+}
+.header__menu__left {
+    display: flex;
+    width: 53%;
+    gap: 1rem;
+}
+.header__menu__right {
+    display: flex;
+    width: 35%;
+    gap: 1rem;
 }
 .services__nav {
     padding: 0 1rem;
@@ -88,7 +98,7 @@ body {
 }
 
 button {
-    display: inline-flex;
+    display: flex;
     border: none;
     justify-content: center;
     align-items: center;
@@ -168,7 +178,7 @@ button {
         gap: 1rem;
     }
     .header__icon--burger {
-    padding: 9px 6px 0 0;
+    padding: 0 6px 0 0;
     }
     .header {
         margin: 0 1rem 0 0;
