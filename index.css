@@ -252,3 +252,8 @@ button {
         height: 208px;
     }  
 }
+@media (min-width: 786px) {
+    .header {
+        display: none;
+    }
+}
