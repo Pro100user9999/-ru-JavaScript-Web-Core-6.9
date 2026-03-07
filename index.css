@@ -278,6 +278,19 @@ button {
         object-position: center;
 
     }
+    .services__nav {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 776px;
+        max-height: 40px;
+        box-sizing: border-box;
+        margin: 2rem 2rem 0 1.5rem;
+        padding: 0;
+    }
+    .services__list {
+        padding: 0;
+        margin: 0;
+    }
     
  
 }
@@ -291,7 +304,6 @@ button {
         max-width: 1063px;
         max-height: fit-content;
         box-sizing: border-box;
-        /* border: 2px solid black; */
         margin: 0 1.5rem 0 2rem;
         padding: 0;
     }
@@ -299,7 +311,6 @@ button {
         display: flex;
         margin: 0;
         flex-wrap: wrap;
-        /* gap: 1.5px 25px; */
         box-sizing: border-box;
         padding: 0;
     }
