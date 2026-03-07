@@ -331,7 +331,7 @@ button {
         justify-content: flex-end;
         min-width: 530px;
         min-height: 383px;
-        margin: 0.5rem 1.6rem 0 2rem;
+        margin: 0.5rem 1.5rem 0 2rem;
         padding: 0;
         overflow: hidden;
         position: relative;
@@ -342,6 +342,7 @@ button {
         height: 75%;
         object-fit: cover;
         object-position: center;
+        padding-right: 1.6rem;
 
     }
     .services__item:last-child {
