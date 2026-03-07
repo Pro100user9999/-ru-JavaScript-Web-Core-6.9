@@ -49,12 +49,13 @@ body {
 .header__menu__left {
     display: flex;
     width: 53%;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 .header__menu__right {
     display: flex;
     width: 35%;
-    gap: 1rem;
+    gap: 0.5rem;
+    margin-right: 1rem;
 }
 .services__nav {
     padding: 0 1rem;
@@ -178,6 +179,9 @@ button {
     .header__menu__left {
         display: flex;
         gap: 1rem;
+    }
+    .header__menu__right {
+        margin-right: 1rem;
     }
     .header__icon--burger {
     padding: 0 6px 0 0;
