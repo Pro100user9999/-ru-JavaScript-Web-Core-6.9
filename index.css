@@ -144,7 +144,9 @@ button {
 .about__content-text {
     background-color: #F8F8F8;
 }
-
+.about__text--next {
+    display: none;
+}
 .about__button {
     padding: 1rem 1rem;
     font-weight: 500;
@@ -262,22 +264,22 @@ button {
         max-width: 1063px;
         max-height: fit-content;
         box-sizing: border-box;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin: 0 1.5rem 0 2rem;
+        padding: 0;
     }
     .services__list {
         display: flex;
         margin: 0;
         flex-wrap: wrap;
-        gap: 1.5px 25px;
+        /* gap: 1.5px 25px; */
         box-sizing: border-box;
         padding: 0;
     }
-    .services__list .services__item:last-child {
-        display: flex;
-        width: 90px;
+    .services__item {
+        margin-right: 1.7rem;
     }
- 
+
     .about__content {
         display: flex;
         width: 100%;
@@ -285,13 +287,22 @@ button {
     }
     .about__content-text {
         width: 50%;
-        margin: 1rem 2rem 0.7rem 2rem;
     }
+    
+    .about__text--next, .about__text {
+        display: flex;
+        margin: 1rem 2rem 0.7rem 2rem;
+        padding: 0;
+    }
+  
     .about__content_image {
         display: flex;
         justify-content: flex-end;
         width: 50%;
         margin: 0.5rem 1.6rem 0 2rem;
+    }
+    .services__item:last-child {
+        padding: 0 1.5rem;
     }
 
 
