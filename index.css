@@ -237,6 +237,12 @@ button {
         left: 24px;
         top: 24px;
     } 
+    .services__list {
+        margin: 2rem 0 0 1.5rem;
+    }
+    .header-tittle {
+        margin: 1.5rem 0 0 0;
+    }
     .about__content {
         display: flex;
         width: 720px;
@@ -245,6 +251,13 @@ button {
     }
     .about__content-text {
         width: 1;
+    }
+    .about__text {
+        min-width: 312px;
+        min-height: 160px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 2rem 0 0.7rem 1.5rem;
     }
     .about__content_image {
         display: flex;
