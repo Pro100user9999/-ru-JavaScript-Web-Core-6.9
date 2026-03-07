@@ -257,7 +257,7 @@ button {
         min-height: 160px;
         box-sizing: border-box;
         padding: 0;
-        margin: 2rem 0 0.7rem 1.5rem;
+        margin: 0 0 0 1.5rem;
     }
     .about__content_image {
         display: flex;
@@ -276,8 +276,8 @@ button {
         height: 80%;
         object-fit: cover;
         object-position: center;
-
     }
+   
     .services__nav {
         display: flex;
         justify-content: flex-start;
