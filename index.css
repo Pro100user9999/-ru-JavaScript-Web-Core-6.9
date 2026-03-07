@@ -247,12 +247,26 @@ button {
         width: 1;
     }
     .about__content_image {
-        width: 1;
-    } 
-    .about__content_image {
-        width: 360px;
-        height: 208px;
-    }  
+        display: flex;
+        flex: 0 1 50%;
+        justify-content: flex-end;
+        min-width: 360px;
+        min-height: 259px;
+        margin: 0.5rem 1.6rem 0 2rem;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+    }
+    .about__image {
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    
+ 
 }
 @media (min-width: 786px) {
     .header {
@@ -286,20 +300,36 @@ button {
         max-height: 400px;
     }
     .about__content-text {
-        width: 50%;
+        min-width: 490px;
+        min-height: 160px;
+        box-sizing: border-box;
+
     }
     
     .about__text--next, .about__text {
         display: flex;
-        margin: 1rem 2rem 0.7rem 2rem;
+        margin: 1rem 0 0.7rem 2rem;
         padding: 0;
     }
   
     .about__content_image {
         display: flex;
+        flex: 0 1 50%;
         justify-content: flex-end;
-        width: 50%;
+        min-width: 530px;
+        min-height: 383px;
         margin: 0.5rem 1.6rem 0 2rem;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+    }
+    .about__image {
+        position: absolute;
+        width: 100%;
+        height: 75%;
+        object-fit: cover;
+        object-position: center;
+
     }
     .services__item:last-child {
         padding: 0 1.5rem;
