@@ -318,9 +318,6 @@ button {
         box-sizing: border-box;
         padding: 0;
     }
-    .services__item {
-        margin-right: 1.7rem;
-    }
 
     .about__content {
         display: flex;
