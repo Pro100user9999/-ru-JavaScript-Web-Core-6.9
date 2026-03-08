@@ -160,8 +160,14 @@ button {
 .about__button__text {
     padding: 1rem 0.5rem;
 }
+.services__block {
+    display: none;
+}
 
 @media(min-width: 321px) and (max-width: 785px) {
+    .services__block {
+        display: none;
+    }
     .header__actions {
         display: flex;
     }
@@ -359,6 +365,16 @@ button {
     }
     .services__item:last-child {
         padding: 0 1.5rem;
+    }
+     
+    .services__block {
+        display: inline-flex;
+        margin-right: 1rem;
+        align-items: center;
+        position: absolute;
+        left: 565px;
+        top: 24px;
+        gap: 0.5rem;
     }
 
 
