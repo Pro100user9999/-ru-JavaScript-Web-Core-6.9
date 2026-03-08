@@ -40,7 +40,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3.5rem;
+    gap: 2.2rem;
     box-sizing: border-box;
     max-width: 320px;
     max-height: 88px;
@@ -50,6 +50,7 @@ body {
     display: flex;
     width: 53%;
     gap: 0.5rem;
+    margin-left: 1rem;
 }
 .header__menu__right {
     display: flex;
@@ -138,7 +139,7 @@ button {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.2px;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.5rem 1rem 0.5rem 1rem;
     line-height: 20px;
 }
 
@@ -149,7 +150,7 @@ button {
     display: none;
 }
 .about__button {
-    padding: 1rem 1rem;
+    margin-left: 1rem;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.2px;
@@ -158,10 +159,15 @@ button {
 }
 
 .about__button__text {
-    padding: 1rem 0.5rem;
+    margin: 1rem 0.5rem 1rem 0.5rem;
 }
 .services__block {
     display: none;
+}
+.header__vertical__line {
+    border-left: 2px solid #c0bbbb;
+    height: 32px;
+    border-radius: 1px;
 }
 
 @media(min-width: 321px) and (max-width: 785px) {
@@ -197,6 +203,11 @@ button {
         padding: 1.5rem;
         width: 768px;
         height: 88px;
+    }
+    .header__vertical__line {
+        position: absolute;
+        left: 84px;
+        top: 28px;
     }
     .header__menu {
         display: flex;
@@ -258,6 +269,9 @@ button {
         width: 720px;
         height: 208px;
         margin-top: 1.5rem;
+    }
+    .about__button {
+        margin-left: 1.5rem; 
     }
     .about__content-text {
         width: 1;
@@ -372,10 +386,11 @@ button {
         margin-right: 1rem;
         align-items: center;
         position: absolute;
-        left: 565px;
+        left: 665px;
         top: 24px;
         gap: 0.5rem;
     }
-
-
+    .about__button {
+        margin-left: 2rem; 
+    }
 }
