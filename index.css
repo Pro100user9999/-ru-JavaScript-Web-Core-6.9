@@ -72,7 +72,7 @@ body {
     display: none;
 }
 
-.header-tittle {
+.services-tittle {
     font-weight: 700;
     font-size: 28px;
     line-height: 40px;
@@ -161,7 +161,7 @@ button {
 .about__button__text {
     margin: 1rem 0.5rem 1rem 0.5rem;
 }
-.services__block {
+.services__block__text, .services__icon {
     display: none;
 }
 .header__vertical__line {
@@ -381,15 +381,29 @@ button {
         padding: 0 1.5rem;
     }
      
-    .services__block {
-        display: inline-flex;
-        margin-right: 1rem;
+    .services__block, .services__block__text, .services__icon {
+        display: flex;
         align-items: center;
-        position: absolute;
-        left: 665px;
-        top: 24px;
-        gap: 0.5rem;
+        justify-content: space-between;
+        row-gap: 1rem;
     }
+    .services__icon--check {
+        margin-right: 5rem;
+        margin-left: auto;
+    }
+    .services__icon--repair {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services__block__text1 {
+        margin-left: 25rem;
+        margin-right: auto;
+    }
+    .services__block__text2 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .about__button {
         margin-left: 2rem; 
     }
