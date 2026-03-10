@@ -172,6 +172,13 @@ button {
 
 @media(min-width: 768px) {
     .services__block {
+        display: flex;
+        margin: 1.5rem 0 0 0;
+    }
+    .services-tittle {
+        margin: 0;
+    }
+    .services__block__text, .services__icon {
         display: none;
     }
     .header__actions {
@@ -313,7 +320,7 @@ button {
         max-width: 776px;
         max-height: 40px;
         box-sizing: border-box;
-        margin: 2rem 2rem 0 1.5rem;
+        margin: 2rem 0 0 1.5rem;
         padding: 0;
     }
     .services__list {
