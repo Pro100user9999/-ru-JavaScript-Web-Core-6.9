@@ -271,18 +271,23 @@ button {
         margin-top: 1.5rem;
     }
     .about__button {
-        margin-left: 1.5rem; 
+        margin: 0.8rem 0 0 0;
     }
     .about__content-text {
         width: 1;
-    }
-    .about__text {
         min-width: 312px;
         min-height: 160px;
         box-sizing: border-box;
         padding: 0;
         margin: 0 0 0 1.5rem;
     }
+    .about__text, .about__button {
+        margin: 0;
+    }
+    .about__button__text {
+        margin: 0 0 0 0.5rem;
+    }
+    
     .about__content_image {
         display: flex;
         flex: 0 1 50%;
@@ -347,16 +352,22 @@ button {
     .about__content-text {
         min-width: 490px;
         min-height: 160px;
+        margin: 0 0 0 2rem;
         box-sizing: border-box;
 
     }
-    
-    .about__text--next, .about__text {
-        display: flex;
-        margin: 1rem 0 0.7rem 2rem;
-        padding: 0;
+    .about__text, .about__button {
+        margin: 0;
     }
-  
+
+    .about__text--next {
+        display: flex;
+        margin: 1rem 0 0 0;
+    }
+    .about__button__text {
+        margin: 0 0 0 0.5rem;
+    }
+    
     .about__content_image {
         display: flex;
         flex: 0 1 50%;
@@ -396,15 +407,14 @@ button {
         margin-right: auto;
     }
     .services__block__text1 {
-        margin-left: 25rem;
+        margin-left: 26rem;
         margin-right: auto;
     }
     .services__block__text2 {
         margin-right: auto;
         margin-left: auto;
     }
-
     .about__button {
-        margin-left: 2rem; 
+        margin: 0.8rem 0 0 0;
     }
 }
