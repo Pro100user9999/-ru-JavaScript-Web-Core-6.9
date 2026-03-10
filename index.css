@@ -396,18 +396,15 @@ button {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        row-gap: 1rem;
     }
     .services__icon--check {
-        margin-right: 5rem;
-        margin-left: auto;
+        margin-right: 6rem;
     }
     .services__icon--repair {
-        margin-left: auto;
         margin-right: auto;
     }
     .services__block__text1 {
-        margin-left: 26rem;
+        margin-left: 28rem;
         margin-right: auto;
     }
     .services__block__text2 {
