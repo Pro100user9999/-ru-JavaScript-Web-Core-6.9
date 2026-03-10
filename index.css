@@ -170,7 +170,7 @@ button {
     border-radius: 1px;
 }
 
-@media(min-width: 321px) and (max-width: 785px) {
+@media(min-width: 768px) {
     .services__block {
         display: none;
     }
@@ -318,7 +318,7 @@ button {
     
  
 }
-@media (min-width: 786px) {
+@media (min-width: 1120px) {
     .header {
         display: none;
     }
