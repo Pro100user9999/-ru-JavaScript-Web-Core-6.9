@@ -337,11 +337,12 @@ button {
     .services__nav {
         display: flex;
         justify-content: flex-start;
-        max-width: 1063px;
+        max-width: fit-content;
         max-height: fit-content;
         box-sizing: border-box;
         margin: 0 1.5rem 0 2rem;
         padding: 0;
+        flex-wrap: wrap;
     }
     .services__list {
         display: flex;
