@@ -27,30 +27,30 @@ body {
 
 .header {
     display: flex;
-    max-width: 320px;
     max-height: 88px;
     box-sizing: border-box;
+    margin: 0 0 0 1rem;
 }
 
 .header__icon--burger {
     padding-top: 0.9rem;
+    
 }
 
 .header__menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.2rem;
+    gap: 1.5rem;
     box-sizing: border-box;
-    max-width: 320px;
     max-height: 88px;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0;
+    margin: 0;
 }
 .header__menu__left {
     display: flex;
     width: 53%;
     gap: 0.5rem;
-    margin-left: 1rem;
 }
 .header__menu__right {
     display: flex;
