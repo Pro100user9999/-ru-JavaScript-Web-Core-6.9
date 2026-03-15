@@ -19,15 +19,17 @@
                 </button>
                 <img src="./IMG/Group.svg" alt="Логотип" class="header__icon--logo">
             </div>
-            <div class="header__vertical__line"></div>
-            <div class="header__actions">
-                <img src="./IMG/call.svg" alt="Позвонить" class="header__icon--call">
-                <img src="./IMG/chat.svg" alt="Служба подджки" class="header__icon--chat">
-                <img src="./IMG/profile.svg" alt="Профиль" class="header__icon--profile">
-            </div>
-            <div class="header__menu__right">
-                <img src="./IMG/repair.svg" alt="Ремонт" class="header__icon--repair">
-                <img src="./IMG/checkstatus.svg" alt="Статус" class="header__icon--check">
+            <div class="header__block__right">
+                <div class="header__vertical__line"></div>
+                <div class="header__actions">
+                    <img src="./IMG/call.svg" alt="Позвонить" class="header__icon--call">
+                    <img src="./IMG/chat.svg" alt="Служба подджки" class="header__icon--chat">
+                    <img src="./IMG/profile.svg" alt="Профиль" class="header__icon--profile">
+                </div>
+                <div class="header__menu__right">
+                    <img src="./IMG/repair.svg" alt="Ремонт" class="header__icon--repair">
+                    <img src="./IMG/checkstatus.svg" alt="Статус" class="header__icon--check">
+                </div>
             </div>
         </div>
     </header>
@@ -36,14 +38,20 @@
         <section class="services">
             <div class="services__block">
                 <h1 class="services-tittle">Услуги и сервисы</h1>
-                <p class="services__block__text services__block__text1">
-                    Оставить заявку
-                </p>
-                <img src="./IMG/repair.svg" alt="Ремонт" class="services__icon services__icon--repair">
-                <p class="services__block__text services__block__text2">
-                    Статус ремонта
-                </p>
-                <img src="./IMG/checkstatus.svg" alt="Статус" class="services__icon services__icon--check">
+                <div class="services__block__pc">
+                    <button type="button">
+                        <span class="services__block__text services__block__text1">
+                            Оставить заявку
+                        </span>
+                        <img src="./IMG/repair.svg" alt="Ремонт" class="services__icon services__icon--repair">
+                    </button>
+                    <button type="button">
+                        <span class="services__block__text services__block__text2">
+                            Статус ремонта
+                        </span>
+                        <img src="./IMG/checkstatus.svg" alt="Статус" class="services__icon services__icon--check">
+                    </button>
+                </div>
             </div>
             <nav class="services__nav">
                 <ul class="services__list">
@@ -92,7 +100,8 @@
                         большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
                         и, в свою очередь, советуют нас родным и близким.
                     </p>
-                    <button type="button" class="about__button"><img src="./IMG/icon.svg" class="about__button--icon" alt="стрелка вниз">
+                    <button type="button" class="about__button"><img src="./IMG/icon.svg" class="about__button--icon"
+                            alt="стрелка вниз">
                         <span class="about__button__text">
                             Читать далее
                         </span>
