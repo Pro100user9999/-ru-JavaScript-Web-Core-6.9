@@ -206,7 +206,7 @@ button {
         justify-content: center;
         min-width: 100%;
         min-height: 259px;
-        margin: 0;
+        margin: 1rem 0 0 0;
         padding: 0;
         overflow: hidden;
         position: absolute;
