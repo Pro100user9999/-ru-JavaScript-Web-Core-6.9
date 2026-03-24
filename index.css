@@ -66,6 +66,9 @@ body {
   height: 32px;
   background-color: #e0e0e0;
 }
+.header__vertical__line__next {
+    display: none;
+}
 
 
 .header__menu__right {
@@ -252,11 +255,6 @@ button {
        margin: 0;
        padding: 0 1rem;
     }
-    .header__vertical__line {
-        position: absolute;
-        left: 84px;
-        top: 28px;
-    }
      .header__menu {
         display: flex;
         align-items: center;
@@ -337,6 +335,14 @@ button {
     .services__list {
         padding: 0;
         margin: 0;
+    }
+    .header__vertical__line__next {
+        display: flex;
+        width: 1px;
+        height: 32px;
+        background-color: #e0e0e0;
+        border-left: 2px solid #c0bbbb;
+        border-radius: 1px;
     }
     
  
