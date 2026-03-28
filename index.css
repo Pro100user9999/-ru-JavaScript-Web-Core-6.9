@@ -170,7 +170,7 @@ button {
     display: none;
 }
 .about__button {
-    padding: 1.5rem 1.5rem 1.5rem 0;
+    padding: 1rem;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.2px;
@@ -289,7 +289,7 @@ button {
     }
     .about__button {
         gap: 0.5rem;
-        padding: 1.5rem 1.5rem 1.5rem 0;
+        padding: 1rem;
         margin: 0;
     }
     .about__content-text {
@@ -399,10 +399,10 @@ button {
        
 
     }
-    .about__text, .about__button {
+    /* .about__text, .about__button {
         margin: 0;
         padding: 0;
-    }
+    } */
 
     .about__text--next {
         display: flex;
@@ -449,7 +449,7 @@ button {
         white-space: nowrap
     }
     .about__button {
-        padding: 1.5rem 1.5rem 1.5rem 0;
+        padding: 1rem;
         gap: 0.8rem;
     }
     .services__block__pc {
